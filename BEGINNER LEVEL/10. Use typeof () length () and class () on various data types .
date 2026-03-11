@@ -1,0 +1,29 @@
+# Numeric data
+a <- 10
+typeof(a)
+length(a)
+class(a)
+
+# Character data
+b <- "Hello"
+typeof(b)
+length(b)
+class(b)
+
+# Logical data
+c <- TRUE
+typeof(c)
+length(c)
+class(c)
+
+# Vector data
+d <- c(1, 2, 3, 4, 5)
+typeof(d)
+length(d)
+class(d)
+
+# List data
+e <- list(1, "R", TRUE)
+typeof(e)
+length(e)
+class(e)
