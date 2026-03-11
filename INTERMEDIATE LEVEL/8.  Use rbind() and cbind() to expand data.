@@ -1,0 +1,15 @@
+df1 <- data.frame(
+  A=c(1,2),
+  B=c(3,4)
+)
+
+df2 <- data.frame(
+  A=c(5,6),
+  B=c(7,8)
+)
+
+# rbind (add rows)
+rbind(df1, df2)
+
+# cbind (add columns)
+cbind(df1, df2)
