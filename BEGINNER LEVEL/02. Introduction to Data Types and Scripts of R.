@@ -1,0 +1,15 @@
+# Numeric
+x <- 10
+class(x)
+
+# Character
+name <- "Nitesh"
+class(name)
+
+# Logical
+y <- TRUE
+class(y)
+
+# Vector
+v <- c(1,2,3,4)
+class(v)
