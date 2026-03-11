@@ -1,0 +1,18 @@
+student <- data.frame(
+  Name=c("A","B","C"),
+  Age=c(20,21,22),
+  Marks=c(80,85,90)
+)
+
+print(student)
+
+# Access column
+student$Name
+
+# Add column
+student$Grade <- c("A","B","A")
+
+# Remove column
+student$Age <- NULL
+
+print(student)
