@@ -1,0 +1,13 @@
+m <- matrix(1:9, nrow=3)
+
+# apply
+apply(m,1,sum)
+
+# list
+mylist <- list(a=1:5, b=6:10)
+
+# lapply
+lapply(mylist, sum)
+
+# sapply
+sapply(mylist, sum)
