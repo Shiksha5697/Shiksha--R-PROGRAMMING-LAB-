@@ -1,0 +1,14 @@
+# Check R version
+version
+
+# Install a package
+install.packages("ggplot2")
+
+# Load the package
+library(ggplot2)
+
+# Display current working directory
+getwd()
+
+# Set working directory
+setwd("C:/Users")
