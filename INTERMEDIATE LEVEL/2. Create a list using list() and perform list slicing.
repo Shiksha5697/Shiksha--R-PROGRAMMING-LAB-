@@ -1,0 +1,10 @@
+mylist <- list(name="Nitesh", age=21, marks=c(80,85,90))
+
+print(mylist)
+
+# Access elements
+mylist$name
+
+# Slice list
+mylist[1]
+mylist[2]
