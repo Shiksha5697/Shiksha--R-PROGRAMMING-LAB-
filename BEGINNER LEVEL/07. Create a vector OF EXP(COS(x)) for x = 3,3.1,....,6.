@@ -1,0 +1,7 @@
+
+x <- seq(3, 6, by = 0.1)
+
+# Calculate exp(cos(x))
+result <- exp(cos(x))
+
+result
