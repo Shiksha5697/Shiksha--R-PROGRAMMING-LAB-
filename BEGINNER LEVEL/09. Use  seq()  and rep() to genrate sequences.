@@ -1,0 +1,3 @@
+# Create sequence 1 to 5 and repeat it twice
+c <- rep(seq(1,5), times = 2)
+print(c)
