@@ -1,0 +1,12 @@
+df <- data.frame(
+  Name=c("A","B"),
+  Marks=c(70,80)
+)
+
+# Add new row
+df <- rbind(df, data.frame(Name="C", Marks=90))
+
+# Add new column
+df$Grade <- c("B","A","A")
+
+print(df)
